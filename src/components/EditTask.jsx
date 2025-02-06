@@ -52,7 +52,7 @@ const EditTask = ({ task }) => {
       </p>
 
       <div className="flex gap-3">
-        <button
+        <button title="Edit Task"
           onClick={() => dispatch(setEditId(task.id))}
           className="text-blue-500 cursor-pointer hover:scale-110 transition-transform"
         >

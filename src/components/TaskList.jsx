@@ -60,7 +60,7 @@ const TaskList = () => {
                 <EditTask task={task} />
               </div>
               <div className="w-1/8 flex justify-center space-x-6">
-                <button data-testid="delete-task"
+                <button data-testid="delete-task" title="Delete-task"
                   onClick={() => handleDelete(task.id)}
                   className="text-red-500 cursor-pointer hover:scale-110 transition-transform"
                 >

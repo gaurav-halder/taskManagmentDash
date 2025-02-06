@@ -45,7 +45,7 @@ const TaskForm = () => {
                 <option value="COMPLETED">Completed</option>
             </select>
             <div className='flex justify-center'>
-                <button className='font-bold border border-gray-400 bg-blue-400 hover:bg-blue-500 cursor-pointer text-white w-full rounded-md py-2'>Add Task</button>
+                <button title="Add Task" className='font-bold border border-gray-400 bg-blue-400 hover:bg-blue-500 cursor-pointer text-white w-full rounded-md py-2'>Add Task</button>
             </div>
         </form>
     </div>
